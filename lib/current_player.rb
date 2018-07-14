@@ -1,15 +1,15 @@
 def turn_count(board)
   index = 0
   counter = 0
-  loop do 
+  loop do
     index += 1
-    if board[index] = "X" || board[index] = "X" 
+    if board[index] = "X" || board[index] = "X"
       counter += 1
-    end 
+    end
     if index >= 9
       break
-    end 
-  end 
+    end
+  end
 end
 
 def current_player(board)
