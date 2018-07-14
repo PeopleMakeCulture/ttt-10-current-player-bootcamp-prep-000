@@ -1,14 +1,6 @@
 def turn_count(board)
-  index = 0
-  counter = 0
-  loop do
-    index += 1
-    if board[index] = "X" || board[index] = "X"
-      counter += 1
-    end
-    if index >= 9
-      break
-    end
+  board.each do
+    counter += 1
   end
   return counter
 end
